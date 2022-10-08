@@ -52,7 +52,7 @@ int main()
 	cout<< __builtin_popcount(a)<<endl; // Inbuilt function to count set bits
 	//count<< __built_popcount(1LL<<35)<<endl;//Only work for int not for Long Long
 	cout<< __builtin_popcountll(1LL<<35)<<endl;//Use this for Long Long
-	cout<< __builtin_popcountll((1LL<<33)-1)<<endl;//count of bits
+	cout<< __builtin_popcountll((1LL<<35)-1)<<endl;//count of bits
 
 
 	
